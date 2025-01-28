@@ -10,11 +10,14 @@
   <div class="container">
     <h1>Boas vindas!</h1>
     <p>Vamos personalizar sua saudação usando JavaScript!</p>
-    <div class="saudacao">Olá, visitante!</div>
+    <div class="saudacao" id="mensagemSaudacao">Olá, visitante!</div>
+    <button>Personalizar Saudação</button>
   </div>
 
 
-
-  <script src="script.js"></script>
+  <script>
+    document.getElementById("mensagemSaudacao").textContent = "Olá, Danilo"
+  </script>
+  <!-- <script src="script.js"></script> -->
 </body>
 </html>
